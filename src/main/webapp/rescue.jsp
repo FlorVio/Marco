@@ -10,30 +10,34 @@
 <html>
 <head>
     <title>Rescue Animals</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
-<body>
-<table class="tabla-animals">
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Raza</th>
-    <th>Type</th>
-    <th>Blood Type</th>
-  </tr>
-  <c:forEach var="animal" items="${listAnimals}">
+<body style="background-color: bisque;" class="container">
+<a class="d-flex pt-3 fw-bold text-capitalize link-info" href="${pageContext.request.contextPath}/">Home</a>
+<table class="border-3 mt-3 table table-striped">
     <tr>
-      <td>${animal.id}</td>
-      <td>${animal.name}</td>
-      <td>${animal.raze}</td>
-      <td>${animal.type}</td>
-      <td>${animal.bloodType}</td>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Raza</th>
+        <th scope="col">Type</th>
+        <th scope="col">Blood Type</th>
     </tr>
-  </c:forEach>
+    <c:forEach var="animal" items="${listAnimals}">
+        <tr>
+            <td>${animal.id}</td>
+            <td>${animal.name}</td>
+            <td>${animal.raze}</td>
+            <td>${animal.type}</td>
+            <td>${animal.bloodType}</td>
+        </tr>
+    </c:forEach>
 </table>
 <form action="${pageContext.request.contextPath}/rescue" method="post">
-  <label for="animal_id_delete">Animal ID:</label>
-  <input type="text" id="animal_id_delete" name="animal_id_delete" required>
-  <input type="submit" value="Delete">
+    <div class="mb-3">
+        <label for="animal_id_delete" class="form-label">Animal ID:</label>
+        <input type="text" class="form-control" id="animal_id_delete" name="animal_id_delete" required>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Delete">
 </form>
 </body>
 </html>
