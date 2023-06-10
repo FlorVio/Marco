@@ -11,10 +11,8 @@ import java.io.IOException;
 
 @WebServlet(name = "Custody", value = "/custody")
 public class Custody extends HttpServlet {
-    DataBase db = DataBase.getInstance();
 
-    public void init() {
-    }
+    DataBase db = DataBase.getInstance();
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setAttribute("listAnimals", db.getAllAnimalsInCustody());
@@ -38,6 +36,4 @@ public class Custody extends HttpServlet {
         doGet(request, response);
     }
 
-    public void destroy() {
-    }
 }

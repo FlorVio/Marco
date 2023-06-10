@@ -16,7 +16,7 @@
     </title>
 </head>
 <body>
-<table id="tabla-animalss">
+<table class="tabla-animals">
     <tr>
         <th>ID</th>
         <th>Nombre</th>

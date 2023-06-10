@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5b2f75c-ef4e-4fdf-8379-09ca72a61c81" name="Changes" comment="javax Tag library error becouse i try to use JSTL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/dtos/AnimalCustodyDto.java" afterDir="false" />
+    <list default="true" id="b5b2f75c-ef4e-4fdf-8379-09ca72a61c81" name="Changes" comment="Custody Woks :P">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Rescue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/dtos/AnimalRescueDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rescue.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Custody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Custody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flor/shopping/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/custodiar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/custodiar.jsp" afterDir="false" />
@@ -28,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -165,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686387158746</updated>
-      <workItem from="1686387159781" duration="15671000" />
+      <workItem from="1686387159781" duration="17350000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686387873385</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686393896892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Custody Woks :P">
+      <created>1686402977875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686402977875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="javax Tag library error becouse i try to use JSTL" />
-    <option name="LAST_COMMIT_MESSAGE" value="javax Tag library error becouse i try to use JSTL" />
+    <MESSAGE value="Custody Woks :P" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custody Woks :P" />
   </component>
 </project>
