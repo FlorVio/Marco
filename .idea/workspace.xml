@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5b2f75c-ef4e-4fdf-8379-09ca72a61c81" name="Changes" comment="Custody Woks :P">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Rescue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/dtos/AnimalRescueDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/rescue.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Custody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/Custody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flor/shopping/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flor/shopping/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/custodiar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/custodiar.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b5b2f75c-ef4e-4fdf-8379-09ca72a61c81" name="Changes" comment="To production" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686387158746</updated>
-      <workItem from="1686387159781" duration="17350000" />
+      <workItem from="1686387159781" duration="18100000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1686387873385</created>
@@ -189,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686402977875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="To production">
+      <created>1686404669612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686404669612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +198,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="javax Tag library error becouse i try to use JSTL" />
     <MESSAGE value="Custody Woks :P" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custody Woks :P" />
+    <MESSAGE value="To production" />
+    <option name="LAST_COMMIT_MESSAGE" value="To production" />
   </component>
 </project>
